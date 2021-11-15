@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewQuizForm /> component rendering should render with given state from the Redux store 1`] = `
+<section>
+  <h1>
+    Create a new quiz
+  </h1>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      id="quiz-name"
+      onChange={[Function]}
+      placeholder="Quiz Title"
+      value=""
+    />
+    <p
+      hidden={true}
+      id="quizNameError"
+    >
+      Please enter a quiz name.
+    </p>
+    <select
+      id="quiz-topic"
+      onChange={[Function]}
+      placeholder="Topic"
+    >
+      <option
+        value=""
+      >
+        Topic
+      </option>
+      <option
+        value="1"
+      >
+        Topic 1
+      </option>
+    </select>
+    <p
+      hidden={true}
+      id="topicIdError"
+    >
+      Please select a valid topic.  To create a topic, click the "Topics" tab.
+    </p>
+    <div
+      className="actions-container"
+    >
+      <button
+        className="addCard"
+        onClick={[Function]}
+      >
+        Add a Card
+      </button>
+      <button>
+        Create Quiz
+      </button>
+    </div>
+  </form>
+</section>
+`;
